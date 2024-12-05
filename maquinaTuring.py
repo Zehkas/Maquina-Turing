@@ -1,6 +1,7 @@
-#Mateo González Lisboa 21271756-8
-#Eduardo loyola 21294383-5
+#Mateo González 21271756-8
+#Eduardo Loyola 21294383-5
 #Vicente Herrera 21533069-9
+#Felipe Oróstica 21507163-4
 
 def leerDatos(nombreArchivo):
     archivo = open(nombreArchivo, "r")
