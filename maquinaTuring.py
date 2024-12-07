@@ -113,8 +113,8 @@ def maquinaTuring(transiciones, cinta, caso):
                     elif funcion[3] == "i":
                         cabezal -= 1
                         if cabezal < 0:
-                            cabezal = len(cinta)
-                            
+                            cabezal = len(cinta) - 1
+
                     simboloActual = cinta[cabezal]
     
     print(f"Cinta resultante: {cinta}")
